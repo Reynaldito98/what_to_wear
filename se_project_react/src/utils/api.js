@@ -1,6 +1,4 @@
-const baseUrl = process.env.NODE_ENV === "production" 
-  ? "https://api.whattowear.jumpingcrab.com"
-  : "http://localhost:3001";
+const baseUrl = "https://what-to-wear-backend-ebon.vercel.app"
 
   
 const headers = {
