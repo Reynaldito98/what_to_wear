@@ -1,0 +1,18 @@
+.weather-card {
+    width: 100%;
+    height: 80px;
+    border-radius: 12px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.weather-card__temperature {
+    line-height: 40px;
+    font-size: 36px;
+    margin-left: 16px;
+    color: #fff;
+    font-weight: 700;
+}

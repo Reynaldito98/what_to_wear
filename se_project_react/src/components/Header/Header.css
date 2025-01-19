@@ -1,0 +1,129 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left-column {
+    display: flex;
+    align-items: center;
+}
+
+.header__right-column {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__right-column_invisible {
+    display: none;
+}
+
+.header__logo {
+    width: 89px;
+    height: 40px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.header__logo:hover {
+    opacity: 0.5;
+}
+
+.header__date-location {
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header__username {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 12px;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__username:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.header__add-clothes-button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.header__add-clothes-button:hover {
+    color: rgb(125, 123, 123);
+}
+
+.header__profile {
+    display: flex;
+    align-items: center;
+}
+
+.header__avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: 700;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.header__avatar:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.header__right-container {
+    display: flex;
+    gap: 20px;
+}
+
+.header__button {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.header__button:hover{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 870px) {
+    .header__left-column {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header__right-column {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__right-column {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header__add-clothes-button {
+        margin-top: 10px;
+    }
+
+    .header__username{
+        margin-top: 4px;
+    }
+}

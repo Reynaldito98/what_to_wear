@@ -1,0 +1,180 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.25s, opacity 0.25s ease-in-out;
+    z-index: 12;
+}
+
+.modal_opened {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal__container {
+    padding: 28px 28px 36px 28px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modal__fieldset {
+    padding: 0;
+    border: none;
+    width: 440px;
+    margin-top: 24px;
+}
+
+.modal__label {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modal__input {
+    display: block;
+    width:  100%;
+    background-color: transparent;
+    border: none;
+    border-color: #000;
+    border-bottom: 1px solid #000;
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.modal__input::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modal__input:focus {
+    border: none;
+}
+
+.modal__radio {
+    margin-left: 0;
+    margin-right: 11px;
+    padding: 0;
+}
+
+.modal__heading {
+    padding: 0;
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modal__input-container {
+    margin-top: 8px;
+}
+
+.modal__label_radio {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__label_radio_active {
+    color: rgb(0, 0, 0);  
+}
+
+.modal__button {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.modal__button {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+.modal__button:hover:not(:disabled) {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal__button_inactive {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: not-allowed;
+}
+
+.modal__close-button {
+    font-size: 16px;
+    font-stretch: wider;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    cursor: pointer;
+}
+
+.modal__error-message{
+    color: red;
+}
+
+.modal__input_invalid{
+    border-color: red;
+}
+
+.modal__input:focus{
+    outline: none;
+    border-bottom: 1px solid #000;
+    
+}
+
+.modal__second-button {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    opacity: 50%;
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.modal__second-button:hover {
+    opacity: 70%;
+}
+
+@media screen and (max-width: 525px) {
+    .modal__fieldset {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .modal__fieldset {
+        width: 240px;
+    }
+}

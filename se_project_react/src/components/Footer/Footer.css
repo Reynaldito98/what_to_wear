@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 171px;
+}
+
+.footer__author {
+    font-weight: 500;
+}
+
+.footer__year {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 380px) {
+    .footer {
+        flex-direction: column;
+    }
+}

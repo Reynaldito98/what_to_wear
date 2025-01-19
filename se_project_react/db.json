@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "name": "Thick Coat",
+      "weather": "cold",
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxpQIFSkZQzLrYPQCRzoiMlVCcFWV1t2e2_9Es6H4TJDgpmgXhqFSgZh57yrm42qJotJfr7rTDVNPv-4pseWwhR1RFRenpN5CMxxlsKns",
+      "_id": 2
+    },
+    {
+      "name": "Undershirt",
+      "weather": "hot",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_683de513-8ad9-4df1-b9e4-7e1f91f9308c?wid=488&hei=488&fmt=pjpeg",
+      "_id": 3
+    },
+    {
+      "name": "Shorts",
+      "weather": "hot",
+      "imageUrl": "https://www.volcom.com/cdn/shop/files/A0912300_KHA_F_1188x1584_crop_center.jpg?v=1701458998",
+      "_id": 4
+    },
+    {
+      "name": "Pants",
+      "weather": "cold",
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61tnnTqO5JL._AC_SY879_.jpg",
+      "_id": 5
+    },
+    {
+      "name": "Beanie",
+      "weather": "cold",
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71X5N-bJb0L._AC_SX679_.jpg",
+      "_id": 6
+    },
+    {
+      "name": "Boots",
+      "weather": "cold",
+      "imageUrl": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/15de5eb08d501859974bb2a37bbddf6d.jpg?imageView2/2/w/800/q/70",
+      "_id": 7
+    },
+    {
+      "name": "Gloves",
+      "weather": "cold",
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81Hp2YhGvbL._AC_SX679_.jpg",
+      "_id": 8
+    },
+    {
+      "name": "Glasses",
+      "weather": "hot",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uAyScb0Q84D2LwjbuRXDMQt95KiK__3AN9eB9jIQZoz6ftbLxNvSpVaUcan3ytCXNgQ&usqp=CAU",
+      "_id": 9
+    },
+    {
+      "name": "Scarf",
+      "weather": "cold",
+      "imageUrl": "https://agnesb-agnesb-com-storage.omn.proximis.com/Imagestorage/imagesSynchro/0/0/18b1cb5b02580c42e5e843801fa7cb272f984cac_1977AH91_460_1.jpeg",
+      "_id": 10
+    },
+    {
+      "name": "T-shirt",
+      "weather": "warm",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e8b3bb05915e55a1dc13ebd/1658135421949-SXK0CZ8TDX11OXPPYW5T/V-new-T-R.jpg?format=1000w",
+      "_id": 11
+    },
+    {
+      "name": "Tennis shoes",
+      "weather": "warm",
+      "imageUrl": "https://images.vans.com/is/image/Vans/VN0A4U1K_6KA_HERO?wid=1600&hei=1984&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.7,8,0",
+      "_id": 13
+    },
+    {
+      "name": "Flip-flops",
+      "weather": "hot",
+      "imageUrl": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/32c7ec6c19576545a1f2a83392372bbd.jpg?imageView2/2/w/800/q/70",
+      "_id": 14
+    },
+    {
+      "name": "Leggings",
+      "weather": "warm",
+      "imageUrl": "https://img.kwcdn.com/garner-api/transfer/2023-3-1/bc600e3a3ff2fa5acca673bc9c4b4022.jpeg?imageView2/2/w/800/q/70",
+      "_id": 15
+    },
+    {
+      "name": "",
+      "weather": "warm",
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61xD2aRDKHL._AC_SY879_.jpg",
+      "_id": 25
+    },
+    {
+      "name": "Overalls",
+      "weather": "hot",
+      "imageUrl": "https://img.kwcdn.com/garner-api/transfer/2023-7-17/e79fc1cccb73097c324034dff64409dc.jpg?imageView2/2/w/800/q/70",
+      "_id": 26
+    },
+    {
+      "name": "Boots",
+      "weather": "warm",
+      "imageUrl": "https://img.kwcdn.com/product/1e233122c8/0b927d9d-e7ed-45ba-9b0f-6c0442179591_800x800.png?imageView2/2/w/800/q/70",
+      "_id": 28
+    },
+    {
+      "name": "Socks",
+      "weather": "warm",
+      "imageUrl": "https://assets.bombas.com/image/fetch/c_crop,h_3040,w_3040/b_rgb:F5F8F8,c_scale,w_1068/f_auto,q_auto/https://images.ctfassets.net/09hbx69ra4p2/2UlQAzLyxAL0maduJsfEyy/15f12fd23c4c88819ddfdee84b38f3ee/charcoal-black-layflat-product-transparent_9e6a1d06-68d4-49f5-be27-11eab45d5dc0.png",
+      "_id": 29
+    },
+    {
+      "name": "Hat",
+      "weather": "warm",
+      "imageUrl": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blteecaeeca3d9aadad/60dc0ad296e07e0f6e5582f5/Hat_16-1_copy_3.jpg?format=pjpg&auto=webp&quality=75%2C90&width=3840",
+      "_id": 30
+    },
+    {
+      "name": "Polo Shirt",
+      "weather": "hot",
+      "imageUrl": "https://img.kwcdn.com/garner-api/transfer/2023-6-27/7017eed413bb793e5912f6b7227520c6.jpg?imageView2/2/w/800/q/70",
+      "_id": 31
+    },
+    {
+      "name": "Jacket",
+      "weather": "cold",
+      "imageUrl": "https://img.kwcdn.com/garner-api/transfer/2023-10-16/b0b60be637c4823a12e3bfa67b91b2a1.jpg?imageView2/2/w/800/q/70",
+      "_id": 32
+    }
+  ]
+}
