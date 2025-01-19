@@ -1,5 +1,4 @@
 const baseUrl = "https://what-to-wear-backend-ebon.vercel.app"
-
   
 const headers = {
   "Content-type": "application/json",
